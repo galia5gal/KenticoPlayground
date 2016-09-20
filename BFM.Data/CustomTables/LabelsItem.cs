@@ -19,7 +19,6 @@ namespace CMS.CustomTables.Types
         /// </summary>
         public const string CLASS_NAME = "customtable.Labels";
 
-
         /// <summary>
         /// The instance of the class that provides extended API for working with LabelsItem fields.
         /// </summary>
