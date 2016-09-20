@@ -1,0 +1,8 @@
+2016-02-08T15:28:07.4233975Z - 10236 - Warn - Exception cleaning temporary files
+2016-02-08T15:28:07.4263996Z - 10236 - Warn - 
+2016-02-08T15:28:07.4263996Z - 10236 - Warn - Could not find a part of the path 'C:\Kentico\Websites\BFMDemo\Kentico9\CMS\App_Data\51Degrees'.
+2016-02-08T15:28:07.4274008Z - 10236 - Warn -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)
+   at FiftyOne.Foundation.Mobile.Detection.WebProvider.CleanTemporaryFiles()
